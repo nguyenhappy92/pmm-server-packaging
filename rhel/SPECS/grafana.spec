@@ -104,7 +104,7 @@ getent passwd grafana >/dev/null || \
 exit 0
 
 %changelog
-* Fri Jan 8 2021 Roman Misyurin <roman.misyurin@percona.com> - 7.1.3-52
+* Fri Jan 8 2021 Roman Misyurin <roman.misyurin@percona.com> - 7.1.3-53
 - PMM-7150 Nested side menus
 
 * Wed Dec 28 2020 Tiago Santos <tiago.mota@percona.com> - 7.1.3-48
