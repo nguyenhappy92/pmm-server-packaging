@@ -11,7 +11,7 @@
 
 Name:           percona-grafana
 Version:        %(c=%{commit}; echo ${c:1:7})
-Release:        54%{?dist}
+Release:        55%{?dist}
 Summary:        Grafana is an open source, feature rich metrics dashboard and graph editor
 License:        ASL 2.0
 URL:            https://github.com/percona-platform/grafana
@@ -104,7 +104,7 @@ getent passwd grafana >/dev/null || \
 exit 0
 
 %changelog
-* Fri Jan 8 2021 Roman Misyurin <roman.misyurin@percona.com> - 7.1.3-54
+* Fri Jan 8 2021 Roman Misyurin <roman.misyurin@percona.com> - 7.1.3-55
 - PMM-7150 Nested side menus
 
 * Wed Dec 28 2020 Tiago Santos <tiago.mota@percona.com> - 7.1.3-48
