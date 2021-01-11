@@ -104,7 +104,7 @@ getent passwd grafana >/dev/null || \
 exit 0
 
 %changelog
-* Wed Dec 28 2020 Tiago Santos <tiago.mota@percona.com> - 7.1.3-57
+* Wed Dec 28 2020 Tiago Santos <tiago.mota@percona.com> - 7.1.3-58
 - PMM-7005 Alert rule enable disable
 
 * Tue Nov 17 2020 Nicola Lamacchia <nicola.lamacchia@percona.com> - 7.1.3-7
